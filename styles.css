@@ -1,19 +1,28 @@
 .red {
-	color: red;
+	background-color: red;
 }
 .green {
-	color: green;
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.orange {
+	background-color: orange;
 }
 .overlay {
+	position: absolute;
+	width: 500px;
 	background-color: black;
 	color: white;
 }
 .progress {
-	height: 10px;
+	height: 5px;
 	width: 1%;
 }
 #overallprogress { /* Test, should later be done in JavaScript according to the EventSub Events */
-	color: gray;
+	background-color: gray;
+	opacity: 50%;
 	height: 100%;
 	width: 50%;
 }
