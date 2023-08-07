@@ -17,11 +17,11 @@
 	color: white;
 	border-radius: 5px;
 }
-#overallprogress { /* Test, should later be done in JavaScript according to the EventSub Events */
+#overallprogress {
 	background-color: gray;
 	opacity: 50%;
 	height: 100%;
-	width: 50%;
+	width: 50%; /* Test, should later be done in JavaScript according to the EventSub Events */
 	position: absolute;
 	border-radius: 5px;
 }
@@ -30,7 +30,7 @@
 }
 .progress {
 	height: 5px;
-	width: 1%;
+	width: 1%; /* Test, should be removed when doing through JavaScript because each polloption/predictionoption needs to get their own width */
 	border-radius: 5px;
 	margin: 10px;
 }
