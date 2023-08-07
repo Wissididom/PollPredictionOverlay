@@ -4,7 +4,22 @@
 .green {
 	color: green;
 }
-span {
+.overlay {
+	background-color: black;
 	color: white;
-	margin: 5px;
+}
+.progress {
+	height: 10px;
+	width: 1%;
+}
+#overallprogress { /* Test, should later be done in JavaScript according to the EventSub Events */
+	color: gray;
+	height: 100%;
+	width: 50%;
+}
+#polloption1 { /* Test, should later be done in JavaScript according to the EventSub Events */
+	width: 25%;
+}
+#polloption2 { /* Test, should later be done in JavaScript according to the EventSub Events */
+	width: 75%;
 }
