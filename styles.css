@@ -1,10 +1,48 @@
 .red {
-	color: red;
+  background-color: red;
 }
 .green {
-	color: green;
+  background-color: green;
 }
-span {
-	color: white;
-	margin: 5px;
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.overlay {
+  position: absolute;
+  width: 500px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#overallprogress {
+  background-color: gray;
+  opacity: 50%;
+  height: 100%;
+  width: 50%; /* Test, should later be done in JavaScript according to the EventSub Events */
+  position: absolute;
+  border-radius: 5px;
+}
+.polloption,
+.predictionoption {
+  margin: 10px;
+}
+.text {
+  color: white;
+  font-size: 12px;
+}
+.progress {
+  height: 5px;
+  width: 1%; /* Test, should be removed when doing through JavaScript because each polloption/predictionoption needs to get their own width */
+  border-radius: 5px;
+}
+#polloption1progress {
+  /* Test, should later be done in JavaScript according to the EventSub Events */
+  width: 25%;
+}
+#polloption2progress {
+  /* Test, should later be done in JavaScript according to the EventSub Events */
+  width: 75%;
 }
