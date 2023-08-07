@@ -15,10 +15,12 @@
 	width: 500px;
 	background-color: black;
 	color: white;
+	border-radius: 5px;
 }
 .progress {
 	height: 5px;
 	width: 1%;
+	border-radius: 5px;
 }
 #overallprogress { /* Test, should later be done in JavaScript according to the EventSub Events */
 	background-color: gray;
@@ -26,6 +28,7 @@
 	height: 100%;
 	width: 50%;
 	position: absolute;
+	border-radius: 5px;
 }
 #polloption1 { /* Test, should later be done in JavaScript according to the EventSub Events */
 	width: 25%;
