@@ -25,6 +25,7 @@
 	opacity: 50%;
 	height: 100%;
 	width: 50%;
+	position: absolute;
 }
 #polloption1 { /* Test, should later be done in JavaScript according to the EventSub Events */
 	width: 25%;

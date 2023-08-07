@@ -8,24 +8,25 @@
 	</head>
 	<body>
 		<!-- https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=zfn1oby6tb4zse68tdtg9ekj4g3c1l&redirect_uri=https%3A%2F%2Fppo.wissididom.me&scope=channel:read:polls+channel:read:predictions -->
+		<!-- TODO: Make the Overlay and Options hidden by default and just show them when an begin event comes in and hide it when an end event comes in. Also make it possible to do it through chat. -->
 		<div class="overlay">
 			<!-- Overlay for Polls and Predictions (and later **maybe** Hype Trains) -->
 			<div id="overallprogress"></div>
-			<div id="polloption1" class="progress red"></div>
-			<div id="polloption2" class="progress green"></div>
-			<div id="polloption3" class="progress blue"></div>
-			<div id="polloption4" class="progress orange"></div>
-			<div id="polloption5" class="progress yellow"></div>
-			<div id="polloption6" class="progress white"></div>
-			<div id="polloption7" class="progress pink"></div>
-			<div id="polloption8" class="progress purple"></div>
-			<div id="polloption9" class="progress beige"></div>
-			<div id="polloption10" class="progress olive"></div>
-			<div id="predictionoption1" class="progress red"></div>
-			<div id="predictionoption2" class="progress green"></div>
-			<div id="predictionoption3" class="progress blue"></div>
-			<div id="predictionoption4" class="progress orange"></div>
-			<div id="predictionoption5" class="progress yellow"></div>
+			<div id="polloption1" class="poll progress red"></div>
+			<div id="polloption2" class="poll progress green"></div>
+			<div id="polloption3" class="poll progress blue"></div>
+			<div id="polloption4" class="poll progress orange"></div>
+			<div id="polloption5" class="poll progress yellow"></div>
+			<div id="polloption6" class="poll progress white"></div>
+			<div id="polloption7" class="poll progress pink"></div>
+			<div id="polloption8" class="poll progress purple"></div>
+			<div id="polloption9" class="poll progress beige"></div>
+			<div id="polloption10" class="poll progress olive"></div>
+			<div id="predictionoption1" class="prediction progress red"></div>
+			<div id="predictionoption2" class="prediction progress green"></div>
+			<div id="predictionoption3" class="prediction progress blue"></div>
+			<div id="predictionoption4" class="prediction progress orange"></div>
+			<div id="predictionoption5" class="prediction progress yellow"></div>
 		</div>
 		<!-- <script src="app.js"></script> -->
 	</body>
