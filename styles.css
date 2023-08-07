@@ -30,15 +30,16 @@
 }
 .text {
 	color: white;
+	font-size: 12px;
 }
 .progress {
 	height: 5px;
 	width: 1%; /* Test, should be removed when doing through JavaScript because each polloption/predictionoption needs to get their own width */
 	border-radius: 5px;
 }
-#polloption1 { /* Test, should later be done in JavaScript according to the EventSub Events */
+#polloption1progress { /* Test, should later be done in JavaScript according to the EventSub Events */
 	width: 25%;
 }
-#polloption2 { /* Test, should later be done in JavaScript according to the EventSub Events */
+#polloption2progress { /* Test, should later be done in JavaScript according to the EventSub Events */
 	width: 75%;
 }
