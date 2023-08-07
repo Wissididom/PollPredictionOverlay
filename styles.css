@@ -17,11 +17,6 @@
 	color: white;
 	border-radius: 5px;
 }
-.progress {
-	height: 5px;
-	width: 1%;
-	border-radius: 5px;
-}
 #overallprogress { /* Test, should later be done in JavaScript according to the EventSub Events */
 	background-color: gray;
 	opacity: 50%;
@@ -29,6 +24,15 @@
 	width: 50%;
 	position: absolute;
 	border-radius: 5px;
+}
+.text {
+	color: white;
+}
+.progress {
+	height: 5px;
+	width: 1%;
+	border-radius: 5px;
+	margin: 10px;
 }
 #polloption1 { /* Test, should later be done in JavaScript according to the EventSub Events */
 	width: 25%;
